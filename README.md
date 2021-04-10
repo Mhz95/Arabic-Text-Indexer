@@ -1,5 +1,9 @@
 # Arabic Text Indexer
 
+## Overview:  
+
+This project creates index files for Saudi Stock Market Arabic and English announcements' texts extracted from [Tadawul](https://www.saudiexchange.sa/wps/portal) using [Tadawul Crawler](https://github.com/Mhz95/Tadawul-Crawler).  
+
 ### Processing:
 #### •	Tokenization:
 For each given document: Both Arabic and English words are tokenized,   
@@ -37,9 +41,9 @@ Term : Object {
 }
 ```
 #### •	Example of the index file:
-
+<p align="center">
 <img src="https://github.com/Mhz95/Arabic-Text-Indexer/blob/main/img.png" width="500">
- 
+ </p>
 •	We indexed the 3 stock data once, and then each time we read the desired index for applying a procedure such as: Getting the Top 10 frequent words, Getting all words counted and Looking for a specific word in the text (Search). 
 
 ### Complications:
